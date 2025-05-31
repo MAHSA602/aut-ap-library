@@ -1,3 +1,3 @@
-from app.routes.books import *
-from app.routes.reservation import *
-from app.routes.users import *
+from .books import bp as books_bp
+from .users import bp as users_bp
+from .reservation import bp as reservation_bp

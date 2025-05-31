@@ -5,7 +5,9 @@
       "username": "john_doe",
       "name": "John Doe",
       "email": "john@example.com",
-      "reserved_books": []
+      "reserved_books": [
+        "2"
+      ]
     },
     {
       "id": "2",
@@ -13,6 +15,22 @@
       "name": "Jane Smith",
       "email": "jane@example.com",
       "reserved_books": []
+    },
+    {
+      "id": "3",
+      "username": "test_user",
+      "name": "Test User",
+      "email": "test@example.com",
+      "reserved_books": []
+    },
+    {
+      "id": "4",
+      "username": "user_test",
+      "name": "Test User",
+      "email": "test@example.com",
+      "reserved_books": [
+        "5"
+      ]
     }
   ],
   "books": [
@@ -29,8 +47,8 @@
       "title": "To Kill a Mockingbird",
       "author": "Harper Lee",
       "isbn": "978-0446310789",
-      "is_reserved": false,
-      "reserved_by": null
+      "is_reserved": true,
+      "reserved_by": "1"
     },
     {
       "id": "3",
@@ -39,6 +57,22 @@
       "isbn": "978-0451524935",
       "is_reserved": false,
       "reserved_by": null
+    },
+    {
+      "id": "4",
+      "title": "Book D",
+      "author": "Author D",
+      "isbn": "1234567893",
+      "is_reserved": false,
+      "reserved_by": null
+    },
+    {
+      "id": "5",
+      "title": "Book E",
+      "author": "Author E",
+      "isbn": "1234567894",
+      "is_reserved": true,
+      "reserved_by": "4"
     }
   ]
 }
